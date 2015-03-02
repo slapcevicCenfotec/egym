@@ -36,8 +36,8 @@ Partial Class eGym
         Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel7 = New MetroFramework.Controls.MetroLabel()
         Me.panel = New MetroFramework.Controls.MetroPanel()
-        Me.pnlPrincipal = New MetroFramework.Controls.MetroPanel()
         Me.MetroLabel9 = New MetroFramework.Controls.MetroLabel()
+        Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
         Me.menuBorder.SuspendLayout()
         Me.menuPanel.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -229,7 +229,7 @@ Partial Class eGym
         'panel
         '
         Me.panel.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(170, Byte), Integer), CType(CType(171, Byte), Integer))
-        Me.panel.Controls.Add(Me.pnlPrincipal)
+        Me.panel.Controls.Add(Me.MetroPanel1)
         Me.panel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.panel.HorizontalScrollbarBarColor = True
         Me.panel.HorizontalScrollbarHighlightOnWheel = False
@@ -243,22 +243,6 @@ Partial Class eGym
         Me.panel.VerticalScrollbarHighlightOnWheel = False
         Me.panel.VerticalScrollbarSize = 10
         '
-        'pnlPrincipal
-        '
-        Me.pnlPrincipal.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pnlPrincipal.HorizontalScrollbarBarColor = True
-        Me.pnlPrincipal.HorizontalScrollbarHighlightOnWheel = False
-        Me.pnlPrincipal.HorizontalScrollbarSize = 10
-        Me.pnlPrincipal.Location = New System.Drawing.Point(1, 1)
-        Me.pnlPrincipal.Name = "pnlPrincipal"
-        Me.pnlPrincipal.Size = New System.Drawing.Size(1132, 657)
-        Me.pnlPrincipal.TabIndex = 2
-        Me.pnlPrincipal.VerticalScrollbarBarColor = True
-        Me.pnlPrincipal.VerticalScrollbarHighlightOnWheel = False
-        Me.pnlPrincipal.VerticalScrollbarSize = 10
-        '
         'MetroLabel9
         '
         Me.MetroLabel9.Anchor = System.Windows.Forms.AnchorStyles.Bottom
@@ -268,6 +252,22 @@ Partial Class eGym
         Me.MetroLabel9.Size = New System.Drawing.Size(139, 19)
         Me.MetroLabel9.TabIndex = 10
         Me.MetroLabel9.Text = "eGym - Cantaros 2015"
+        '
+        'MetroPanel1
+        '
+        Me.MetroPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.MetroPanel1.HorizontalScrollbarBarColor = True
+        Me.MetroPanel1.HorizontalScrollbarHighlightOnWheel = False
+        Me.MetroPanel1.HorizontalScrollbarSize = 10
+        Me.MetroPanel1.Location = New System.Drawing.Point(1, 1)
+        Me.MetroPanel1.Name = "MetroPanel1"
+        Me.MetroPanel1.Size = New System.Drawing.Size(1132, 657)
+        Me.MetroPanel1.TabIndex = 2
+        Me.MetroPanel1.VerticalScrollbarBarColor = True
+        Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
+        Me.MetroPanel1.VerticalScrollbarSize = 10
         '
         'eGym
         '
@@ -312,5 +312,5 @@ Partial Class eGym
     Friend WithEvents MetroLabel7 As MetroFramework.Controls.MetroLabel
     Friend WithEvents panel As MetroFramework.Controls.MetroPanel
     Friend WithEvents MetroLabel9 As MetroFramework.Controls.MetroLabel
-    Friend WithEvents pnlPrincipal As MetroFramework.Controls.MetroPanel
+    Friend WithEvents MetroPanel1 As MetroFramework.Controls.MetroPanel
 End Class
