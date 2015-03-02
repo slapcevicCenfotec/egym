@@ -85,6 +85,60 @@
     <Compile Include="eGym.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmConfiguracion.Designer.vb">
+      <DependentUpon>frmConfiguracion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguracion.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmEjerciciosListar.Designer.vb">
+      <DependentUpon>frmEjerciciosListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEjerciciosListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmFacturacionListar.Designer.vb">
+      <DependentUpon>frmFacturacionListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFacturacionListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmMaquinasListar.Designer.vb">
+      <DependentUpon>frmMaquinasListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaquinasListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmMusculosListar.Designer.vb">
+      <DependentUpon>frmMusculosListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMusculosListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmReportesListar.Designer.vb">
+      <DependentUpon>frmReportesListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportesListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmRolesListar.Designer.vb">
+      <DependentUpon>frmRolesListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRolesListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmUsuarioAgregar.Designer.vb">
+      <DependentUpon>frmUsuarioAgregar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuarioAgregar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmUsuariosListar.Designer.vb">
+      <DependentUpon>frmUsuariosListar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuariosListar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -104,6 +158,33 @@
   <ItemGroup>
     <EmbeddedResource Include="eGym.resx">
       <DependentUpon>eGym.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEjerciciosListar.resx">
+      <DependentUpon>frmEjerciciosListar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFacturacionListar.resx">
+      <DependentUpon>frmFacturacionListar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaquinasListar.resx">
+      <DependentUpon>frmMaquinasListar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMusculosListar.resx">
+      <DependentUpon>frmMusculosListar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportesListar.resx">
+      <DependentUpon>frmReportesListar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRolesListar.resx">
+      <DependentUpon>frmRolesListar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuarioAgregar.resx">
+      <DependentUpon>frmUsuarioAgregar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuariosListar.resx">
+      <DependentUpon>frmUsuariosListar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
