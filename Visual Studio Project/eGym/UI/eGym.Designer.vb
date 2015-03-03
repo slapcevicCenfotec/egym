@@ -36,8 +36,8 @@ Partial Class eGym
         Me.MetroButton1 = New MetroFramework.Controls.MetroButton()
         Me.MetroLabel7 = New MetroFramework.Controls.MetroLabel()
         Me.panel = New MetroFramework.Controls.MetroPanel()
-        Me.MetroLabel9 = New MetroFramework.Controls.MetroLabel()
         Me.MetroPanel1 = New MetroFramework.Controls.MetroPanel()
+        Me.MetroLabel9 = New MetroFramework.Controls.MetroLabel()
         Me.menuBorder.SuspendLayout()
         Me.menuPanel.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -236,22 +236,12 @@ Partial Class eGym
         Me.panel.HorizontalScrollbarSize = 10
         Me.panel.Location = New System.Drawing.Point(33, 115)
         Me.panel.Name = "panel"
-        Me.panel.Size = New System.Drawing.Size(1134, 659)
+        Me.panel.Size = New System.Drawing.Size(1134, 627)
         Me.panel.TabIndex = 9
         Me.panel.UseCustomBackColor = True
         Me.panel.VerticalScrollbarBarColor = True
         Me.panel.VerticalScrollbarHighlightOnWheel = False
         Me.panel.VerticalScrollbarSize = 10
-        '
-        'MetroLabel9
-        '
-        Me.MetroLabel9.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.MetroLabel9.AutoSize = True
-        Me.MetroLabel9.Location = New System.Drawing.Point(531, 783)
-        Me.MetroLabel9.Name = "MetroLabel9"
-        Me.MetroLabel9.Size = New System.Drawing.Size(139, 19)
-        Me.MetroLabel9.TabIndex = 10
-        Me.MetroLabel9.Text = "eGym - Cantaros 2015"
         '
         'MetroPanel1
         '
@@ -263,17 +253,27 @@ Partial Class eGym
         Me.MetroPanel1.HorizontalScrollbarSize = 10
         Me.MetroPanel1.Location = New System.Drawing.Point(1, 1)
         Me.MetroPanel1.Name = "MetroPanel1"
-        Me.MetroPanel1.Size = New System.Drawing.Size(1132, 657)
+        Me.MetroPanel1.Size = New System.Drawing.Size(1132, 625)
         Me.MetroPanel1.TabIndex = 2
         Me.MetroPanel1.VerticalScrollbarBarColor = True
         Me.MetroPanel1.VerticalScrollbarHighlightOnWheel = False
         Me.MetroPanel1.VerticalScrollbarSize = 10
         '
+        'MetroLabel9
+        '
+        Me.MetroLabel9.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.MetroLabel9.AutoSize = True
+        Me.MetroLabel9.Location = New System.Drawing.Point(531, 783)
+        Me.MetroLabel9.Name = "MetroLabel9"
+        Me.MetroLabel9.Size = New System.Drawing.Size(139, 19)
+        Me.MetroLabel9.TabIndex = 10
+        Me.MetroLabel9.Text = "eGym - Cantaros 2015"
+        '
         'eGym
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1200, 812)
+        Me.ClientSize = New System.Drawing.Size(1200, 780)
         Me.Controls.Add(Me.MetroLabel9)
         Me.Controls.Add(Me.panel)
         Me.Controls.Add(Me.menuBorder)
