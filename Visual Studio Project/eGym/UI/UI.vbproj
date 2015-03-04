@@ -100,10 +100,28 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pago\FrmListarPago.Designer.vb">
+      <DependentUpon>FrmListarPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pago\FrmListarPago.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TipoPago\FrmListarTipoPago.Designer.vb">
+      <DependentUpon>FrmListarTipoPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPago\FrmListarTipoPago.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="TiposMaquinas\FrmRegistrarTiposMaquinas.Designer.vb">
       <DependentUpon>FrmRegistrarTiposMaquinas.vb</DependentUpon>
     </Compile>
     <Compile Include="TiposMaquinas\FrmRegistrarTiposMaquinas.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Usuarios\FrmListarUsuarios.Designer.vb">
+      <DependentUpon>FrmListarUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\FrmListarUsuarios.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
@@ -116,6 +134,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago\FrmListarPago.resx">
+      <DependentUpon>FrmListarPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipoPago\FrmListarTipoPago.resx">
+      <DependentUpon>FrmListarTipoPago.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TiposMaquinas\FrmRegistrarTiposMaquinas.resx">
       <DependentUpon>FrmRegistrarTiposMaquinas.vb</DependentUpon>
