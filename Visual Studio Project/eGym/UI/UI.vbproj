@@ -85,6 +85,12 @@
     <Compile Include="eGym.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Musculo\FrmRegistrarMusculo.Designer.vb">
+      <DependentUpon>FrmRegistrarMusculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Musculo\FrmRegistrarMusculo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
