@@ -118,6 +118,12 @@
     <Compile Include="TiposMaquinas\FrmRegistrarTiposMaquinas.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Usuarios\FrmListarUsuarios.Designer.vb">
+      <DependentUpon>FrmListarUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\FrmListarUsuarios.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="eGym.resx">
