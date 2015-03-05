@@ -51,7 +51,7 @@ Partial Class FrmListarPago
         Me.Controls.Add(Me.MetroButton1)
         Me.Controls.Add(Me.MetroLabel1)
         Me.Name = "FrmListarPago"
-        Me.Size = New System.Drawing.Size(551, 150)
+        Me.Size = New System.Drawing.Size(551, 338)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

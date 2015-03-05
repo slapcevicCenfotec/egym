@@ -1,16 +1,29 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Data;
+<<<<<<< HEAD
 using System.Configuration;
 using System.Collections.Generic;
+=======
+using System.Collections.Generic;
+using System.Configuration;
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
 
 namespace DAL
 {
     public class DBAccess
     {
+<<<<<<< HEAD
         public static string connString;
         public static string Route;
 
+=======
+
+        public static string connString;
+        public static string Route;
+
+
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
         #region Utilities
 
         public DBAccess()
@@ -24,7 +37,11 @@ namespace DAL
             try
             {
                 var appSR = new AppSettingsReader();
+<<<<<<< HEAD
                 connString = ConfigurationManager.ConnectionStrings["CuerposCelestes"].ConnectionString;
+=======
+                connString = ConfigurationManager.ConnectionStrings["Medicamentos"].ConnectionString;
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
                 return connString;
             }
             catch (Exception ex)
@@ -182,7 +199,10 @@ namespace DAL
                 throw ex;
             }
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
         #endregion
     }
 }

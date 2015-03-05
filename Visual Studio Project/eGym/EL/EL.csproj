@@ -40,9 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoDeMaquina.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="Contacto.cs" />
+    <Compile Include="Horario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs" />
+=======
+    <Compile Include="IEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoPago.cs" />
+>>>>>>> 790edcba744ad795ea8bd5fdd45375ef09f0563e
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
