@@ -85,19 +85,14 @@
     <Compile Include="eGym.vb">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Maquinas\FrmRegistrarMaquina.Designer.vb">
       <DependentUpon>FrmRegistrarMaquina.vb</DependentUpon>
     </Compile>
     <Compile Include="Maquinas\FrmRegistrarMaquina.vb">
       <SubType>UserControl</SubType>
-=======
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -155,13 +150,8 @@
     <EmbeddedResource Include="eGym.resx">
       <DependentUpon>eGym.vb</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Maquinas\FrmRegistrarMaquina.resx">
       <DependentUpon>FrmRegistrarMaquina.vb</DependentUpon>
-=======
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -202,14 +192,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{7193bc78-e548-4e19-9733-cdae4dfd2b7b}</Project>
       <Name>BLL</Name>
     </ProjectReference>
-=======
     <Folder Include="Sesion\" />
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
