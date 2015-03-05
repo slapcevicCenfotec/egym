@@ -85,16 +85,11 @@
     <Compile Include="eGym.vb">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-=======
     <Compile Include="Maquinas\FrmRegistrarMaquina.Designer.vb">
       <DependentUpon>FrmRegistrarMaquina.vb</DependentUpon>
     </Compile>
     <Compile Include="Maquinas\FrmRegistrarMaquina.vb">
       <SubType>UserControl</SubType>
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -120,29 +115,16 @@
     <Compile Include="Pago\FrmListarPago.vb">
       <SubType>UserControl</SubType>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <Compile Include="Rol\FrmAgregarRol.Designer.vb">
       <DependentUpon>FrmAgregarRol.vb</DependentUpon>
     </Compile>
     <Compile Include="Rol\FrmAgregarRol.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Rol\FrmListarRol.Designer.vb">
-      <DependentUpon>FrmListarRol.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Rol\FrmListarRol.vb">
-=======
-=======
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     <Compile Include="TipoPago\FrmAgregarTipoPago.Designer.vb">
       <DependentUpon>FrmAgregarTipoPago.vb</DependentUpon>
     </Compile>
     <Compile Include="TipoPago\FrmAgregarTipoPago.vb">
-<<<<<<< HEAD
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
-=======
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TipoPago\FrmListarTipoPago.Designer.vb">
@@ -151,21 +133,12 @@
     <Compile Include="TipoPago\FrmListarTipoPago.vb">
       <SubType>UserControl</SubType>
     </Compile>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     <Compile Include="TipoPago\FrmModificarTipoPago.Designer.vb">
       <DependentUpon>FrmModificarTipoPago.vb</DependentUpon>
     </Compile>
     <Compile Include="TipoPago\FrmModificarTipoPago.vb">
       <SubType>UserControl</SubType>
     </Compile>
-<<<<<<< HEAD
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
-=======
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     <Compile Include="TiposMaquinas\FrmRegistrarTiposMaquinas.Designer.vb">
       <DependentUpon>FrmRegistrarTiposMaquinas.vb</DependentUpon>
     </Compile>
@@ -183,13 +156,8 @@
     <EmbeddedResource Include="eGym.resx">
       <DependentUpon>eGym.vb</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-=======
     <EmbeddedResource Include="Maquinas\FrmRegistrarMaquina.resx">
       <DependentUpon>FrmRegistrarMaquina.vb</DependentUpon>
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -200,37 +168,21 @@
     <EmbeddedResource Include="Pago\FrmListarPago.resx">
       <DependentUpon>FrmListarPago.vb</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <EmbeddedResource Include="Rol\FrmAgregarRol.resx">
       <DependentUpon>FrmAgregarRol.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Rol\FrmListarRol.resx">
-      <DependentUpon>FrmListarRol.vb</DependentUpon>
-=======
     <EmbeddedResource Include="TipoPago\FrmAgregarTipoPago.resx">
       <DependentUpon>FrmAgregarTipoPago.vb</DependentUpon>
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
-=======
-    <EmbeddedResource Include="TipoPago\FrmAgregarTipoPago.resx">
-      <DependentUpon>FrmAgregarTipoPago.vb</DependentUpon>
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     </EmbeddedResource>
     <EmbeddedResource Include="TipoPago\FrmListarTipoPago.resx">
       <DependentUpon>FrmListarTipoPago.vb</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     <EmbeddedResource Include="TipoPago\FrmModificarTipoPago.resx">
       <DependentUpon>FrmModificarTipoPago.vb</DependentUpon>
     </EmbeddedResource>
->>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
-=======
     <EmbeddedResource Include="TipoPago\FrmModificarTipoPago.resx">
       <DependentUpon>FrmModificarTipoPago.vb</DependentUpon>
     </EmbeddedResource>
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     <EmbeddedResource Include="TiposMaquinas\FrmRegistrarTiposMaquinas.resx">
       <DependentUpon>FrmRegistrarTiposMaquinas.vb</DependentUpon>
     </EmbeddedResource>
@@ -252,13 +204,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{7193bc78-e548-4e19-9733-cdae4dfd2b7b}</Project>
       <Name>BLL</Name>
     </ProjectReference>
->>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     <Folder Include="Sesion\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
