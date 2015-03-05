@@ -33,6 +33,10 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+<<<<<<< HEAD
+=======
+    <Reference Include="System.Drawing" />
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
     <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,7 +47,12 @@
   <ItemGroup>
     <Compile Include="DBAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Repositories\RolRepository.cs" />
+=======
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\TipoDeMaquinaRepository.cs" />
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EL\EL.csproj">

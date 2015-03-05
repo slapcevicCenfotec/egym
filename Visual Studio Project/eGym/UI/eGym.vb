@@ -24,15 +24,15 @@
 
     End Sub
 
-    Private Sub btnFacturacion_Click(sender As Object, e As EventArgs) Handles btnFacturacion.Click
-        Dim ctr As Control
-        ctr = New FrmListarPago
-        ctr.Dock = DockStyle.Fill
-        MetroPanel1.Controls.Clear()
-        MetroPanel1.Controls.Add(ctr)
-    End Sub
+    'Private Sub btnFacturacion_Click(sender As Object, e As EventArgs) Handles btnFacturacion.Click
+    '    Dim ctr As Control
+    '    ctr = New FrmListarPago
+    '    ctr.Dock = DockStyle.Fill
+    '    MetroPanel1.Controls.Clear()
+    '    MetroPanel1.Controls.Add(ctr)
+    'End Sub
 
-    Private Sub MetroLabel1_Click(sender As Object, e As EventArgs) Handles MetroLabel1.Click
+    Private Sub MetroLabel1_Click(sender As Object, e As EventArgs) Handles btnMaquinas.Click
         Dim ctr As Control
         ctr = New FrmRegistrarTiposMaquinas
         ctr.Dock = DockStyle.Fill

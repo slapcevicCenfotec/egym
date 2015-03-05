@@ -4,7 +4,10 @@ using System.Data;
 <<<<<<< HEAD
 using System.Configuration;
 using System.Collections.Generic;
+<<<<<<< HEAD
 
+=======
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
 =======
 using System.Collections.Generic;
 using System.Configuration;
@@ -15,13 +18,25 @@ namespace DAL
     public class DBAccess
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
+=======
+        public static string connString;
+        public static string Route;
+
+=======
+
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
         public static string connString;
         public static string Route;
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
         #region Utilities
 
         public DBAccess()
@@ -36,7 +51,11 @@ namespace DAL
             {
                 var appSR = new AppSettingsReader();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 connString = ConfigurationManager.ConnectionStrings["Espacio"].ConnectionString;
+=======
+                connString = ConfigurationManager.ConnectionStrings["CuerposCelestes"].ConnectionString;
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
 =======
                 connString = ConfigurationManager.ConnectionStrings["Medicamentos"].ConnectionString;
 >>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
@@ -199,6 +218,7 @@ namespace DAL
         }
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 
 
@@ -212,3 +232,10 @@ namespace DAL
     }
 }
 >>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
+=======
+=======
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
+        #endregion
+    }
+}
+>>>>>>> f298301f047dbb801d5472be36ab01a33de25ebe
