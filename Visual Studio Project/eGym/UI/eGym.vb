@@ -1,4 +1,4 @@
-﻿Public Class eGym
+﻿Public Class IniciarSesion
 
     Private Sub eGym_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         InicializarMenu()

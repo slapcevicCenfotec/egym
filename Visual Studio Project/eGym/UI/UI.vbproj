@@ -85,6 +85,12 @@
     <Compile Include="eGym.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -106,6 +112,7 @@
     <Compile Include="Pago\FrmListarPago.vb">
       <SubType>UserControl</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Rol\FrmAgregarRol.Designer.vb">
       <DependentUpon>FrmAgregarRol.vb</DependentUpon>
     </Compile>
@@ -116,6 +123,12 @@
       <DependentUpon>FrmListarRol.vb</DependentUpon>
     </Compile>
     <Compile Include="Rol\FrmListarRol.vb">
+=======
+    <Compile Include="TipoPago\FrmAgregarTipoPago.Designer.vb">
+      <DependentUpon>FrmAgregarTipoPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPago\FrmAgregarTipoPago.vb">
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="TipoPago\FrmListarTipoPago.Designer.vb">
@@ -124,16 +137,34 @@
     <Compile Include="TipoPago\FrmListarTipoPago.vb">
       <SubType>UserControl</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="TipoPago\FrmModificarTipoPago.Designer.vb">
+      <DependentUpon>FrmModificarTipoPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TipoPago\FrmModificarTipoPago.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
     <Compile Include="TiposMaquinas\FrmRegistrarTiposMaquinas.Designer.vb">
       <DependentUpon>FrmRegistrarTiposMaquinas.vb</DependentUpon>
     </Compile>
     <Compile Include="TiposMaquinas\FrmRegistrarTiposMaquinas.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Usuarios\FrmListarUsuarios.Designer.vb">
+      <DependentUpon>FrmListarUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios\FrmListarUsuarios.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="eGym.resx">
       <DependentUpon>eGym.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -144,17 +175,31 @@
     <EmbeddedResource Include="Pago\FrmListarPago.resx">
       <DependentUpon>FrmListarPago.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Rol\FrmAgregarRol.resx">
       <DependentUpon>FrmAgregarRol.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rol\FrmListarRol.resx">
       <DependentUpon>FrmListarRol.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="TipoPago\FrmAgregarTipoPago.resx">
+      <DependentUpon>FrmAgregarTipoPago.vb</DependentUpon>
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
     </EmbeddedResource>
     <EmbeddedResource Include="TipoPago\FrmListarTipoPago.resx">
       <DependentUpon>FrmListarTipoPago.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="TipoPago\FrmModificarTipoPago.resx">
+      <DependentUpon>FrmModificarTipoPago.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 971ef86cf09a1915fab344afbc3097230234f2f3
     <EmbeddedResource Include="TiposMaquinas\FrmRegistrarTiposMaquinas.resx">
       <DependentUpon>FrmRegistrarTiposMaquinas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios\FrmListarUsuarios.resx">
+      <DependentUpon>FrmListarUsuarios.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +214,9 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sesion\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

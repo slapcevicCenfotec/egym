@@ -74,7 +74,7 @@ Partial Class FrmListarRol
         Me.tblRoles.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.tblRoles.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
         Me.tblRoles.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.tblRoles.Size = New System.Drawing.Size(670, 96)
+        Me.tblRoles.Size = New System.Drawing.Size(670, 226)
         Me.tblRoles.TabIndex = 0
         '
         'MetroLabel1
